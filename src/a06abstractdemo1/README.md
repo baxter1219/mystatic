@@ -12,9 +12,12 @@ abstract 所修饰的方法就是抽象类
 接口不能实例化
 接口与类：通过 implements 关键字来表示
 
-接口的成员变量：只能是常量，默认使用 public
+接口的成员变量：只能是常量，默认使用 public static final
 构造方法：无
-成员方法：
+成员方法：默认使用 public abstract
 jkd7 之前：只能定义抽象方法
-jkd8：可以定义有方法体的方法
+jkd8：可以定义有方法体的方法(默认 default，静态 static)
 jkD9：可以定义私有方法
+
+
+中间类：适配器类，间接继承
